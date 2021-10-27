@@ -36,13 +36,13 @@ Feb 2021 – May 2021
 - Took responsibility for the full QA cycle from the creation of an issue to verification in production
 - Tools Used: Python, Selenium, Unittest, Flask, Postman, SQL, Git, Bitbucket, GitLab, Jira, Heroku
 
-<b>TECHNICAL SKILLS</b>  
+### TECHNICAL SKILLS  
 - <b>Programming</b>: Python, Java, C++, C, JavaScript, Assembly, JSON, REST, AJAX, CSS, HTML, VS Code, Vim, Git
 - <b>Frameworks / Runtime environments</b>: NodeJS (Express), ReactJS, React Native, Django, Flask
 - <b>Cloud / Testing tools</b>: AWS (Lambda, EC2, S3), Docker, Selenium, Unittest, JUnit, JMeter 
 - <b>Database Systems</b>: MongoDB, PostgreSQL, MSSQL, SQLite 
 
-<b>PROJECTS</b>   
+### PROJECTS     
   
 Graph/Chart App (https://play.google.com/store/apps/details?id=com.KudosGraph.KudosGraph)  
 - Built android application in React Native (Expo) and used SQLite for storing cache
@@ -54,7 +54,7 @@ Django Web App (https://stark-everglades-78872.herokuapp.com/djangoapp)
 - Used API points developed in Python / NodeJS and hosted on IBM Cloud Functions
 - Tools: Django, Python, NodeJS, PostgreSQL, IBM Cloud
   
-<b>EDUCATION</b>  
+### EDUCATION  
   
 May 2019 - Present  
 - Major: Bachelor of Computer Science, Honours (GPA: 3.9 / 4.5)
