@@ -1,34 +1,25 @@
 # developik-um.github.io
 
-# Jenkins Resume Creation
+# Jenkins Resume Creation  
 
-## Purpose  
+### Purpose  
 Primary goal of the following readme document is to explain detailed steps of how to create a resume using  
 Jenkins static website generator and host it on Github pages.
 
-
-## Getting Started
-
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
-
-### Prerequisites
+### Prerequisites  
+Make sure to have the following prerequisites to start with the tutorial.  
 
 OS:
 - Windows 10  
 
-Requirements for the software and other tools to build, test and push :
+Requirements for the software and other tools to build, test and push:  
 - Install [Ruby Development Kit]() 
-- Install [Git Bash](), that recommended command line if you want to closely follow tutorial in this readme document
+- Install [Git Bash](), that recommended command line if you want to closely follow tutorial in this readme document  
 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
-
-### Installing
+### Installing  
 
 A step by step series of examples that tell you how to get a development
-environment running
+environment running  
 
 Say what the step will be
 
@@ -39,25 +30,9 @@ And repeat
     until finished
 
 End with an example of getting some data out of the system or using it
-for a little demo
+for a little demo  
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
+### Deployment  
 
 After website is complete and you are ready to host make sure to complete the following steps.
 
@@ -81,47 +56,37 @@ After website is complete and you are ready to host make sure to complete the fo
 ```
   - Create and switch to the branch "gh-pages" by running the following command:
 ```
-    git -b checkout gh-pages
+    git checkout -b gh-pages
 ```
   - Type the following commands to add all files, commit and push them your repository
 ```
     git add .
     git -m commit "your commit message"
-    git push 
+    git push origin gh-pages
 ```
 - Type in your password and username or set up ssh connection between your local machine and github account to proceed
-- 
+- If you get an error saying that branch can't be pushed try running the following command instead
+```
+    git push --set-upstream origin gh-pages
+```
 
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
+### Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
 available, see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
-## Authors
+### Authors
 
   - **Andrii Provozin** - *Provided README Template* -
     [developik](https://github.com/developik)  
     [developik-um](https://github.com/developik-um)  
 
-## License
+### License
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments  
+### Acknowledgments  
 <b>Thanks to:</b>  
   - [Mike Dane](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) for a great Jenkins introduction tutorial
   - Stewart Wilcox for teaching course Comp 3040
@@ -129,7 +94,13 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
   - [PurpleBooth](https://github.com/PurpleBooth/) for template example 
   - And anyone related to creating Jenkins static website generator
 
-## FAQ  
+### More Resources
+- [Markdown tutorial](https://www.markdownguide.org/getting-started/)
+- [Etter’s book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+- [Make a Readme website](https://www.makeareadme.com/)
+- [Markdown Tutorial](https://www.markdowntutorial.com/)
+
+### FAQ  
   
 - “Why is Markdown better than a word processor?”  
   - Answer 1
