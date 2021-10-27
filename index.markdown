@@ -10,8 +10,8 @@ title: Resume
 
 
 
-# Andrii Provozin
-###### provozia@myumanitoba.ca | https://www.linkedin.com/in/andrii-provozin/ | https://developik.github.io/
+# Andrii Provozin  
+#### provozia@myumanitoba.ca | https://www.linkedin.com/in/andrii-provozin/ | https://developik.github.io/
 <hr>
 
 ### WORK EXPERIENCE  
