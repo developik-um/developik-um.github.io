@@ -132,7 +132,6 @@ After website is complete and you are ready to host make sure to complete the fo
 
 Note: Make sure that the name of the your repository corresponds to the following pattern "your_username.github.io"  
 
-```
   - Go into you project directory and type the following if you haven't initialized the project yet
 ```
     git init
@@ -160,17 +159,11 @@ Note: Make sure that the name of the your repository corresponds to the followin
 Your resume should be now publicly available for everyone on "https://your_username.github.io" within two minutes.
 Congratulations on completing this tutorial!  
 
-### Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
 ### Authors
 
-  - **Andrii Provozin** - *Provided README Template* -
-    [developik](https://github.com/developik)  
-    [developik-um](https://github.com/developik-um)  
+  - **Andrii Provozin** - *Provided README Template*  
+        - [developik](https://github.com/developik)  
+        - [developik-um](https://github.com/developik-um)  
 
 ### License
 
@@ -192,7 +185,9 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 ### FAQ  
   
-- “Why is Markdown better than a word processor?”  
-  - Answer 1
-- “Why is my resume not showing up?"
-  - Answer 2
+- "Why is Markdown better than a word processor?"  
+    - Markdown is better than word processor, because style could be kept when moving from one editor to another. And the document will look the same on all editors that support FGM (Flavour Github Markdown). 
+- "Why is my resume not showing up?"
+    - There are number of reasons, but I would recommend uninstalling all software that was installed during this tutorial and try to start from the beginning of the tutorial again.
+- "Why markdown styling hasn't been applied?"
+    - Try to look for any extra spaces or invisible character in your markdown file which might disrupt the look of a specific line of paragraph.
