@@ -2,12 +2,16 @@
 
 ### Purpose  
 <i>Primary goal of the following readme document is to explain detailed steps of how to create a resume using  
-Jenkins static website generator, host it on Github pages and explain how to follow Etter’s protocol.</i>
+Jenkins static website generator, host it on Github pages and explain how to follow Etter’s protocol.</i>  
+
+> If documentation is not publicly available Wiki where every change should be immidiately syncronized, then it is best to have a static documentation.
+> It weighs less, easier to manage and less complicated overall.
 
 ### Our stack
 - Markdown
 - Markdown editor
-- GitHub Pages, and Jekyll
+- GitHub Pages
+- Jekyll
 
 ### Prerequisites  
 <i>Make sure to have the following prerequisites to start with the tutorial.</i>
@@ -30,7 +34,7 @@ Other required software and tools:
     - Click <b>"Import/Export"</b>
     - Click <b>"Export as Markdown file"</b>
 
-Empahasis on what is important was completed according to styling recommendations by Andrew Ether.
+> Empahasis on what is important was completed according to styling recommendations by A.Ether.
 
 ![Gif Actions](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation1.gif)  
 
@@ -59,7 +63,9 @@ For any question or issues that occured during running this bundler refer to the
 
 It will take some time to complete, after it's complete you should see the following message:  
 
-![message_1](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_1.png)
+![message_1](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_1.png)  
+
+> Content should look pleasant and easy to scan, so including images and gif's are a great way to increase reader's attention.  
 
 Now, make sure that gem bundle is installed by pasting the following command into the terminal:
 
@@ -132,6 +138,8 @@ After website is complete and you are ready to host make sure to complete the fo
 
 Note: Make sure that the name of the your repository corresponds to the following pattern "your_username.github.io"  
 
+> Andrew Ether recommends using distributed version control like git so that is what I'm using in this tutorial as well.  
+
   - Go into you project directory and type the following if you haven't initialized the project yet
 ```
     git init
@@ -156,7 +164,11 @@ Note: Make sure that the name of the your repository corresponds to the followin
     git push --set-upstream origin gh-pages
 ```  
 
-Your resume should be now publicly available for everyone on "https://your_username.github.io" within two minutes.
+Your resume should be now publicly available for everyone on "https://your_username.github.io" within two minutes.  
+
+> Key characteristics of a good documentation are discoverability, searchability and only relevant information.
+> Hence, we should stop here and let reader enjoy what they created while following this tutorial.
+
 Congratulations on completing this tutorial!  
 
 ### Authors
@@ -167,7 +179,10 @@ Congratulations on completing this tutorial!
 
 ### License
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.  
+
+> Legal issues could be a problem as mentioned in the book "Modern Technical Writing" by A.Ether.
+> Hence, including license is important to reduce possibility of legal problems.
 
 ### Acknowledgments  
 <b>Thanks to:</b>  
