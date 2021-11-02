@@ -9,7 +9,7 @@ Jenkins static website generator, host it on Github pages and explain how to fol
 
 ### Our stack
 - Markdown
-- Markdown editor
+- Markdown editor (Stackedit)
 - GitHub Pages
 - Jekyll
 
