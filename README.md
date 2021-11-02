@@ -16,7 +16,7 @@
 
 ### Purpose  
 <i>Primary goal of the following readme document is to explain detailed steps of how to create a resume using  
-Jenkins static website generator, host it on Github pages and explain how to follow Etter’s protocol.</i>  
+Jekyll static website generator, host it on Github pages and explain how to follow Etter’s protocol.</i>  
 
 > If documentation is not a publicly available Wiki, where every change should be immediately synchronized, then it is best to have static documentation.
 > It weighs less, is easier to manage and overall less complicated.  
@@ -42,15 +42,15 @@ Other required software and tools:
 
 ### Creating Resume  
 <i> Steps for moving your resume to markdown format </i>  
-- Go to a markdown editor page [Stackedit - Markdown page](https://stackedit.io/app)
-- Copy your resume from your word or text document to a text box on this page
-- Make corrections to make it look as similar as possible to your formated resume using markdown techniques. Refer to the markdown tutorial in the [More Resources](#more-resources) section for more information about useful techniques for formatting your markdown file.
-- After you formatted your resume, download it by doing the following steps:
-    - Click <b>"Toggle side bar"</b>
-    - Click <b>"Import/Export"</b>
-    - Click <b>"Export as Markdown file"</b>
+1. Go to a markdown editor page [Stackedit - Markdown page](https://stackedit.io/app)
+2. Copy your resume from your word or text document to a text box on this page
+3. Make corrections to make it look as similar as possible to your formated resume using markdown techniques. Refer to the markdown tutorial in the [More Resources](#more-resources) section for more information about useful techniques for formatting your markdown file.
+4. After you formatted your resume, download it by doing the following steps:
+    4.1 Click <b>"Toggle side bar"</b>
+    4.2 Click <b>"Import/Export"</b>
+    4.3 Click <b>"Export as Markdown file"</b>
 
-> Emphasis on what is important was completed according to styling recommendations by A.Ether.
+> Emphasis on important bulletpoints was added according to styling recommendations by A.Ether.
 
 ![Gif Actions](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation1.gif)  
 
@@ -81,8 +81,6 @@ The installation will take some time to complete, and after it's completion you 
 
 ![message_1](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_1.png)  
 
-> Content should look pleasant and easy to scan, so including images and gifs are a great way to increase the reader's attention.  
-
 Now, make sure that the gem bundle is installed by pasting the following command into the terminal:
 
 ```
@@ -92,7 +90,7 @@ gem -v
 If everything went smoothly we could get started with building a jekyll static website.
 
 ### Building Website  
-<i> How to create and build your website using Jenkins static website builder.</i>  
+<i> How to create and build your website using Jekyll static website builder.</i>  
   
 Create and locate the folder where you are planning to create your website using
 
@@ -148,7 +146,7 @@ After the website is complete and you are ready to host make sure to complete th
 
 Run your website builder once again to make sure all of your updates have been applied.
 
-- Build Jenkins website:
+- Build Jekyll website:
 ```
     bundle exec jekyll serve
 ```    
@@ -159,7 +157,7 @@ Run your website builder once again to make sure all of your updates have been a
 
 Note: Make sure that the name of your repository corresponds to the following pattern "your_username.github.io"  
 
-> Andrew Ether recommends using distributed version control like git.
+> Andrew Etter recommends using distributed version control like git.
 Hence, that is what I'll be using in this tutorial as well.  
 
   - If you haven't initialized the project yet, go into your project directory and type the following 
@@ -186,9 +184,12 @@ Hence, that is what I'll be using in this tutorial as well.
     git push --set-upstream origin gh-pages
 ```  
 
-Your resume should be now publicly available for everyone on "https://your_username.github.io" within two minutes.  
+Your resume should be now publicly available for everyone on "your_username.github.io" within two minutes. 
 
-> Key characteristics of good documentation are discoverability, searchability and only relevant information.
+> A.Etter recommends that content inside your readme should look pleasant and easy to scan, so including images and gifs are a great way to increase the reader's attention.  
+> But adding extra images just for the sake of appearence means wasting reader's time.  
+> Key characteristics of a good documentation are discoverability, searchability and only relevant information.  
+ 
 > Hence, we should stop here and let the reader enjoy what they created while following this tutorial.
 
 Congratulations on completing this tutorial!  
@@ -203,12 +204,12 @@ Congratulations on completing this tutorial!
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.  
 
-> Legal issues could be a problem, as mentioned in the book "Modern Technical Writing" by A.Ether.
+> Legal issues could be a problem, as mentioned in the book "Modern Technical Writing" by A.Etter.
 > Hence, including a license, is an important step to reduce the possibility of legal problems.
 
 ### Acknowledgments  
 <b>Thanks to:</b>  
-  - [Mike Dane](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) for a great Jenkins introduction tutorial
+  - [Mike Dane](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) for a great Jekyll introduction tutorial
   - Stewart Wilcox for teaching course Comp 3040
   - My group members for the review of this document
     - Megan Galbraith
@@ -229,5 +230,5 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
     - Markdown is better than a word processor because the style could be kept when moving from one editor to another. And the document will look the same on all editors that support FGM (Flavour Github Markdown). 
 - "Why is my resume not showing up?"
     - There are several possible reasons, but I would recommend uninstalling all software that was installed during this tutorial and trying to start from the beginning of the tutorial again.
-- "Why markdown styling hasn't been applied?"
+- "Why markdown styling is not showing correctly?"
     - Try to look for any extra spaces or invisible characters in your markdown file which might disrupt the look of a specific line or a paragraph.
