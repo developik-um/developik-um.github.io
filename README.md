@@ -28,7 +28,7 @@ Other required software and tools:
 <i> Steps for moving your resume to markdown format </i>  
 - Go to a markdown editor page [Stackedit - Markdown page](https://stackedit.io/app)
 - Copy your resume from your word or text document to a text box on this page
-- Make corrections to make it look as similar as possible to your formated resume using markdown techniques. Refer to markdown tutorial in #More Resources section for more information about useful techniques for formatting your markdown file.
+- Make corrections to make it look as similar as possible to your formated resume using markdown techniques. Refer to markdown tutorial in [More Resources](#more-resources) section for more information about useful techniques for formatting your markdown file.
 - After you done formatting your resume, download it by doing the following steps:
     - Click <b>"Toggle side bar"</b>
     - Click <b>"Import/Export"</b>
@@ -102,7 +102,7 @@ And run command to start server for making changes and building your static webs
 bundle exec jekyll serve
 ```  
 
-Now paste in the resume that you created in the section #Creating Resume into index.md file and change front matter block from Home to a regular page.  
+Now paste in the resume that you created in the section [Creating Resume](#creating-resume) into index.md file and change front matter block from Home to a regular page.  
 The following Yaml configuration will work as of now:  
 
 ```
