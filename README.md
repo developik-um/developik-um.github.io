@@ -1,4 +1,18 @@
-## Creating and hosting simple Jenkins Static Website on Github pages
+# Creating and hosting static website on Github pages
+
+## Contents  
+- [Purpose](#purpose)
+- [Our stack](#our-stack)
+- [Prerequisites](#prerequisites)
+- [Creating Resume](#creating-resume)
+- [Installing](#installing)
+- [Building Website](#building-website)
+- [Deployment](#deployment)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [FAQ](#faq)
+
 
 ### Purpose  
 <i>Primary goal of the following readme document is to explain detailed steps of how to create a resume using  
@@ -195,8 +209,11 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
   - [Mike Dane](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) for a great Jenkins introduction tutorial
   - Stewart Wilcox for teaching course Comp 3040
   - My group members for the review of this document
+    - Megan Galbraith
+    - Matthew Kwiatkowski
+    - Ian Tobinpe
+    - Andrea Abellera
   - [PurpleBooth](https://github.com/PurpleBooth/) for template example 
-  - And anyone related to creating Jenkins static website generator
 
 ### More Resources
 - [Markdown tutorial](https://www.markdownguide.org/getting-started/)
