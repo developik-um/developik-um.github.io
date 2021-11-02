@@ -115,7 +115,9 @@ title: Resume
 Now remove any other files with markdown format from the main folder. You should now have the page with only your resume on the home page.  
 To check whether it displays correctly locally access the link displayed in the terminal.  
 
-![message_2](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_2.png)  
+![message_2](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_2.png) 
+
+![gif-actions-2](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation2.png) 
 
 If you want to make your resume looks more stylish make sure to check out small free course by Mike Dane on youtube. 
 [Link to the course](https://www.youtube.com/watch?v=pxua_1vyFck&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=4)  
