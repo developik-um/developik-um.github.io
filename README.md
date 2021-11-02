@@ -45,10 +45,10 @@ Other required software and tools:
 1. Go to a markdown editor page [Stackedit - Markdown page](https://stackedit.io/app)
 2. Copy your resume from your word or text document to a text box on this page
 3. Make corrections to make it look as similar as possible to your formated resume using markdown techniques. Refer to the markdown tutorial in the [More Resources](#more-resources) section for more information about useful techniques for formatting your markdown file.
-4. After you formatted your resume, download it by doing the following steps:
-    4.1 Click <b>"Toggle side bar"</b>
-    4.2 Click <b>"Import/Export"</b>
-    4.3 Click <b>"Export as Markdown file"</b>
+4. After you formatted your resume, download it by doing the following steps:  
+    4.1 Click <b>"Toggle side bar"</b>  
+    4.2 Click <b>"Import/Export"</b>  
+    4.3 Click <b>"Export as Markdown file"</b>  
 
 > Emphasis on important bulletpoints was added according to styling recommendations by A.Ether.
 
@@ -146,14 +146,14 @@ After the website is complete and you are ready to host make sure to complete th
 
 Run your website builder once again to make sure all of your updates have been applied.
 
-- Build Jekyll website:
+1. Build Jekyll website:  
 ```
     bundle exec jekyll serve
 ```    
-- Host it on Github pages:
-  - Register on the website [Github](github.com) and go into your account
-  - Create a new repository, and once you are on the main page of the repository press the copy button and copy the HTTPS link
-  - Go into your terminal and change the current directory to the folder with your project 
+2. Host it on Github pages:  
+  2.1 Register on the website [Github](github.com) and go into your account  
+  2.2 Create a new repository, and once you are on the main page of the repository press the copy button and copy the HTTPS link  
+  2.3 Go into your terminal and change the current directory to the folder with your project  
 
 Note: Make sure that the name of your repository corresponds to the following pattern "your_username.github.io"  
 
