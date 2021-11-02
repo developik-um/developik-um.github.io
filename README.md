@@ -173,7 +173,7 @@ Congratulations on completing this tutorial!
 
 ### Authors
 
-  - **Andrii Provozin** - *Provided README Template*  
+  - **Andrii Provozin** - *Provided this README and Jekyll website*  
         - [developik](https://github.com/developik)  
         - [developik-um](https://github.com/developik-um)  
 
