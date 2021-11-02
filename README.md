@@ -117,7 +117,7 @@ To check whether it displays correctly locally access the link displayed in the 
 
 ![message_2](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/message_2.png) 
 
-![gif-actions-2](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation2.png) 
+![Gif Actions](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation2.gif) 
 
 If you want to make your resume looks more stylish make sure to check out small free course by Mike Dane on youtube. 
 [Link to the course](https://www.youtube.com/watch?v=pxua_1vyFck&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=4)  
