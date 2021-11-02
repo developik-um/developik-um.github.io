@@ -19,7 +19,9 @@
 Jenkins static website generator, host it on Github pages and explain how to follow Etter’s protocol.</i>  
 
 > If documentation is not a publicly available Wiki, where every change should be immediately synchronized, then it is best to have static documentation.
-> It weighs less, is easier to manage and overall less complicated.
+> It weighs less, is easier to manage and overall less complicated.  
+>   
+> A.Etter suggests using static static website for documentation whenever it is possible.
 
 ### Our stack
 - Markdown
