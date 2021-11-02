@@ -50,7 +50,7 @@ Other required software and tools:
     4.2 Click <b>"Import/Export"</b>  
     4.3 Click <b>"Export as Markdown file"</b>  
 
-> Emphasis on important bulletpoints was added according to styling recommendations by A.Ether.
+> Emphasis on important bulletpoints was added according to styling recommendations by A.Etter.
 
 ![Gif Actions](https://github.com/developik-um/developik-um.github.io/blob/gh-pages/assets/Animation1.gif)  
 
